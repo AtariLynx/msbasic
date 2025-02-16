@@ -15,3 +15,6 @@
 .ifdef SYM1
 .include "sym1_loadsave.s"
 .endif
+.ifdef LYNX
+.include "lynx_loadsave.s"
+.endif
